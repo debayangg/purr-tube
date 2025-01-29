@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
